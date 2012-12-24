@@ -1,8 +1,8 @@
 multiselect
 ===========
 
-多选jquery ui widget，支持多级，比如选择多个城市。
-用法:
+多选jquery ui widget，支持多级，比如选择多个城市。<br />
+用法:<br />
 html:
 <pre>
 &lt;select&nbsp;title=&quot;最多选择5个期望工作地点&quot;&nbsp;size=&quot;5&quot;&nbsp;multiple=&quot;multiple&quot;&nbsp;id=&quot;regions&quot;&gt;
@@ -55,9 +55,9 @@ $("#resume_job_target_region_ids").multiselect({
 
         });
 </pre>
-参数：
-selected_dict: 默认选中的值
-max_selected: 最大可以选择的数量（还没有实现)
-mark_hash: jason对象,hash表 举例: {"2466":{"mark_type":2,"children":["12","31"],"parent":0,"title":"四川省"}} 以后改为js直接读取结构
-mark_type: 0(最后一级,叶子节点） 1(倒数第二级,点击它会弹出对话框) 2(其他级别,点击进入下一级)
+参数：<br />
+selected_dict: 默认选中的值 <br />
+max_selected: 最大可以选择的数量（还没有实现) <br />
+mark_hash: jason对象,hash表 举例: {"2466":{"mark_type":2,"children":["12","31"],"parent":0,"title":"四川省"}} 以后改为js直接读取结构  <br />
+mark_type: 0(最后一级,叶子节点） 1(倒数第二级,点击它会弹出对话框) 2(其他级别,点击进入下一级)  <br />
 
